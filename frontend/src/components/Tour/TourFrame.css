@@ -1,0 +1,119 @@
+p {
+  margin: 0;
+  padding: 0;
+}
+.tour-deals {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.tour-deals-card {
+  width: 288px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.tour-deals-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.tour-deals-header {
+  position: relative;
+  max-height: 206px;
+  height: 206px;
+}
+
+.tour-deals-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.tour-deals-timer {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.tour-deals-body {
+  padding: 15px;
+  height: 152px;
+  max-height: 152px;
+}
+
+.tour-deals-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.tour-deals-places p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.tour-deals-place {
+  margin-right: 5px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.tour-deals-departure,
+.tour-deals-date,
+.tour-deals-duration,
+.tour-deals-seats {
+  font-size: 13px;
+}
+
+.tour-deals-departure span,
+.tour-deals-date span {
+  font-weight: bold;
+}
+.tour-deals-price {
+  display: flex;
+  justify-content: space-between;
+}
+.tour-deals-price {
+  margin-top: 10px;
+}
+
+.tour-deals-price-new {
+  font-size: 17px;
+  color: #0396ff;
+  font-weight: bold;
+}
+
+.tour-deals-footer {
+  padding: 10px 15px;
+  background-color: #f8f8f8;
+  border-top: 1px solid #ddd;
+}
+
+.tour-deals-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tour-deals-button:hover {
+  background-color: #2980b9;
+}

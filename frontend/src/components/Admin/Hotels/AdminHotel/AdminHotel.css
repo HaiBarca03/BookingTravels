@@ -1,0 +1,185 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.hotel-create-btn {
+  width: 130px;
+  margin: 0 !important;
+  padding: 0;
+}
+.action-btn-hotel {
+  display: flex;
+}
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+.table {
+  width: 100%;
+  margin-top: 30px;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+.table th {
+  background-color: #f8f9fa;
+}
+
+.table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.btn {
+  font-size: 11px;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  border: none;
+  color: white;
+}
+
+.btn-warning:hover {
+  background-color: #e0a800;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+/* HotelDetailModal.css */
+
+/* Modal Container */
+.hotel-detail-modal {
+  width: 800px !important;
+  max-width: 1000px;
+  padding: 16px;
+  font-family: Arial, sans-serif;
+}
+
+/* Modal Header */
+.hotel-detail-modal .ant-modal-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.hotel-detail-container {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.hotel-detail-image {
+  flex: 1;
+  max-width: 45%;
+  height: 300px;
+}
+
+.hotel-detail-image .ant-carousel .slick-slide {
+  text-align: center;
+}
+
+.hotel-detail-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  height: 300px !important;
+  object-fit: cover;
+}
+
+/* Content Section */
+.hotel-detail-content {
+  flex: 1;
+  max-width: 55%;
+  padding-left: 20px;
+}
+
+/* Paragraph and Content Styling */
+.hotel-detail-content p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.hotel-detail-content p strong {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Amenities List Styling */
+.hotel-detail-content .amenities-list {
+  padding-left: 20px;
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.hotel-detail-content .amenities-list li {
+  margin-bottom: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hotel-detail-modal {
+    width: 90%;
+  }
+
+  /* Stack layout on small screens */
+  .hotel-detail-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hotel-detail-image {
+    max-width: 100%;
+  }
+
+  .hotel-detail-content {
+    max-width: 100%;
+    padding-left: 0;
+  }
+}

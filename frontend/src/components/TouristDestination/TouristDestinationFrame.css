@@ -1,0 +1,49 @@
+.tourist-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 20px 0 !important ;
+}
+
+.cart_tourist-frame.ant-card {
+  border-radius: 8px;
+  overflow: hidden;
+  width: 288px !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.cart_tourist-frame.ant-card-hoverable:hover {
+  transform: translateY(-5px);
+}
+
+.cart_tourist-frame .ant-card-cover img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.cart_tourist-frame.ant-card h3 {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.cart_tourist-frame.ant-card p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.cart_tourist-frame.ant-rate {
+  font-size: 14px;
+  color: #f5a623;
+}
+
+.description {
+  max-height: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.5;
+  font-size: 0.9rem;
+  color: #666;
+}

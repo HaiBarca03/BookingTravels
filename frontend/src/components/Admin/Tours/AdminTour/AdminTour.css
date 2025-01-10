@@ -1,0 +1,102 @@
+.tour-admin-container {
+  width: 100%;
+  padding: 20px;
+  background-color: #f9f9f9;
+  position: relative;
+}
+.create-tour-btn {
+  width: 100px;
+}
+.tour-admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+.tour-admin-table th,
+.tour-admin-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+.nam_table-tour-ad {
+  width: 400px !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.tour-admin-table th {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+.tour-admin-actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.tour-admin-actions > .btn {
+  padding: 6px;
+  font-size: 11px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-view {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-edit {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.tour-detail-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+}
+
+.tour-detail-modal {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+  width: 80%;
+  max-width: 1200px;
+  max-height: 90%;
+  overflow-y: auto;
+}
+
+.btn-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  width: 100px;
+}
